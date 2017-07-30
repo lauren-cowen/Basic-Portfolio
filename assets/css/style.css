@@ -15,14 +15,6 @@ header  {
 	
 }
 
-p{
-	line-height: 50%;
-	margin-bottom: : 0;
-	padding-bottom: 0;
-}
-
-
-
 .myName{
 
 	margin: 0;
@@ -60,8 +52,6 @@ p{
 	margin: auto;
 	padding:0;
 	width: 67%;
-	 
-	
 
 }
 
@@ -74,7 +64,13 @@ p{
 	float: left;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
+
 	
+}
+
+.floatPic{
+	float:left;
+	margin: 10px;
 }
 
 .socialMedia{
@@ -150,7 +146,7 @@ h3{
 .clearfix::after {
     content: "";
     clear: both;
-    display: table;
+    display: block;
 }
 
 .copyright {
