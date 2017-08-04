@@ -13,7 +13,7 @@ header  {
 	background-color: #ffffff;
 	height: 100px;
 	border-bottom: 2px solid #A67B7B;
-	z-index: -1;
+	
 	
 	position: relative;
 	
@@ -48,11 +48,9 @@ header  {
 .navBar{
 	width: 270px;
 	float: right;
-
-
+	z-index: -1;
 
 }
-
 
 
 .navItem{
@@ -66,6 +64,11 @@ header  {
 
 	
 	
+}
+a.navLink{display: inline;
+	z-index:100
+	color: darkgrey;
+	text-decoration: none;
 }
 
 
@@ -228,7 +231,7 @@ h3{
 }
 
 .aboutMe{
-	line-height: 2;
+	line-height: 1.5;
 	
 }
 
